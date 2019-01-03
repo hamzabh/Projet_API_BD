@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Dtalend.component.manager.m2.repository=%cd%/../lib -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp .;../lib/routines.jar;../lib/accessors-smart-1.1.jar;../lib/dom4j-1.6.1.jar;../lib/jersey-client-1.4.jar;../lib/jersey-core-1.4.jar;../lib/json-path-2.1.0.jar;../lib/json-smart-2.2.1.jar;../lib/log4j-1.2.17.jar;../lib/postgresql-42.2.5.jar;../lib/slf4j-api-1.7.5.jar;../lib/slf4j-log4j12-1.7.5.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;api_0_1.jar; api_bd.api_0_1.API  --context_param POSTGRES_FILE_PARAM="%1" %*

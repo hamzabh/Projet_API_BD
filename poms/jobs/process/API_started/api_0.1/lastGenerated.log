@@ -1,0 +1,40 @@
+[WARNING] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building API_BD API-0.1.0 (0.1,Jobs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for log4j:log4j:jar:1.2.17 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ API ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ API ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ API ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ API ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ API ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ API ---
+[INFO] Building jar: /home/dev1/dev/TOS_DI-20181026_1147-V7.1.1/workspace/API_BD/poms/jobs/process/API_started/api_0.1/target/api_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ API ---
+[INFO] Reading assembly descriptor: /home/dev1/dev/TOS_DI-20181026_1147-V7.1.1/workspace/API_BD/poms/jobs/process/API_started/api_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for log4j:log4j:jar:1.2.17
+[INFO] Building zip: /home/dev1/dev/TOS_DI-20181026_1147-V7.1.1/workspace/API_BD/poms/jobs/process/API_started/api_0.1/target/api_0_1.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.925 s
+[INFO] Finished at: 2019-01-02T14:57:01+01:00
+[INFO] Final Memory: 14M/217M
+[INFO] ------------------------------------------------------------------------
